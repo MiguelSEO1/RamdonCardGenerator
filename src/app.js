@@ -165,7 +165,7 @@ const originalHight = cardBorder.style.height;
 let originalSize = document.createElement("button");
 originalSize.innerHTML = "Dimenciones originales";
 firstDiv.appendChild(originalSize);
-originalSize.classList.add("btn", "btn-primary", "p-3", "mt-4", "ms-2");
+originalSize.classList.add("btn", "btn-dark", "p-3", "mt-4", "ms-2");
 
 originalSize.addEventListener("click", () => {
   cardBorder.style.width = originalWidth;
